@@ -33113,7 +33113,7 @@ A.BG.prototype={
 U(a){return new A.rG(B.z_,"Arpit Anghan | Flutter Developer",A.a8i(B.Y,null,null).Zo(B.jl),!1,null)}}
 A.Aj.prototype={
 U(a){var s,r,q,p,o=this,n=null,m=t.w,l=A.ci(a,n,m).w.a.a<700
-m=A.ci(a,n,m).w
+m=l?700:A.ci(a,n,m).w.a.b
 s=t.E
 r=A.d([],s)
 if(!l){q=A.d([A.ed("ARPIT",A.ek().$3$color$fontSize$fontWeight(B.dG,22,B.ah))],s)
@@ -33122,7 +33122,7 @@ r.push(new A.fv(B.ys,A.a8_(q,B.hh),n))}q=l?32:60
 if(l){p=A.d([o.Bz()],s)
 p=A.kp(p,B.av,B.hg)}else p=A.a8_(A.d([A.a7i(o.Bz(),6),A.a7i(o.PW(),5)],s),B.hh)
 r.push(A.a7i(new A.fv(new A.bj(q,0,q,0),p,n),1))
-return new A.tJ(A.amq(new A.Dl(A.kp(A.d([A.amY(A.kp(r,B.av,B.ap),m.a.b,n),new A.Dy(n)],s),B.av,B.ap),n),!0),n)},
+return new A.tJ(A.amq(new A.Dl(A.kp(A.d([A.amY(A.kp(r,B.av,B.ap),m,n),new A.Dy(n)],s),B.av,B.ap),n),!0),n)},
 rp(a){var s=null
 return new A.fv(B.yo,A.B7(A.ed(a,A.ek().$3$color$fontSize$fontWeight(A.br(217,B.i.L()>>>16&255,B.i.L()>>>8&255,B.i.L()&255),15,B.I)),B.uK,s,s,s),s)},
 Bz(){return A.kp(A.d([A.ed("HI \u2014",A.ek().$3$color$fontSize$fontWeight(B.i,60,B.cy)),A.ed("I'M ARPIT",A.ek().$3$color$fontSize$fontWeight(B.i,70,B.ah)),B.Gz,A.ed("Flutter Developer & Team Lead",A.ek().$3$color$fontSize$fontWeight(B.ja,22,B.u)),B.uG,A.ed("Experienced in building high-performance apps for mobile, web, and desktop. Specialized in debugging, R&D, and managing Flutter teams with over 30+ successful projects delivered.",A.ek().$3$color$fontSize$height(A.br(B.d.ak(178.5),B.i.L()>>>16&255,B.i.L()>>>8&255,B.i.L()&255),16,1.6))],t.E),B.aJ,B.hg)},
